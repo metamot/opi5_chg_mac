@@ -20,7 +20,8 @@ For example:
 To update spi-flash (PLEASE BE PATIENT! This operation due 5min!):
 
     sudo dd if=./spi.img of=/dev/mtdblock0 bs=1M count=16 conv=notrunc
-    sudo reboot
+
+Reboot.
 
 Check mac (see new mac-address):
 
