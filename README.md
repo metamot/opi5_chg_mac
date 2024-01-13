@@ -1,5 +1,5 @@
 # opi5_chg_mac
-Change Mac-address for classic Orange Pi 5
+Change Mac-address for classic Orange Pi 5 (Boot from nvme-ssd only. Change mac from micro-sd is not applied).
 
     git clone https://github.com/metamot/opi5_chg_mac
     make
