@@ -3,6 +3,7 @@ Change Mac-address for classic Orange Pi 5 (Boot from nvme-ssd only. Change mac 
 
     cd ~
     git clone https://github.com/metamot/opi5_chg_mac
+    cd opi5_chg_mac
     make
     cd ~/opi5_chg_mac
 
