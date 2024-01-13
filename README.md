@@ -14,13 +14,16 @@ To change mac into file:
     ./chg_mac xx:xx:xx:xx:xx:xx
 
 For example:
+
     ./chg_mac f6:20:08:cd:73:6f
 
-To update spi-flash (PLEASE BE PATIENT! This operation due 5min!)
+To update spi-flash (PLEASE BE PATIENT! This operation due 5min!):
+
     sudo dd if=./spi.img of=/dev/mtdblock0 bs=1M count=16 conv=notrunc
     sudo reboot
 
 Check mac (see new mac-address):
+
     ip a
 
 THERE ARE NO WARRANTIES!
