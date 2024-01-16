@@ -6,12 +6,12 @@ This scenario is only for NVME-SSD boot via spi-flash uboot-bootloader. Change_M
 
 ### Note2: 
 
-This manual is how to update spi-flash uboot-bootloader. You can do backup copy of your spi-flash bootloader.
+This manual is how to update spi-flash uboot-bootloader. You can do backup copy of your spi-flash bootloader (16MB).
 
     $ mkdir ~/my-backup
     $ sudo dd if=/dev/mtdblock0 of=~/my-backup/original.spi
 
-## Mini- Manual
+## HOWTO
 
 Change Mac-address for classic Orange Pi 5 (Boot from nvme-ssd only. Change mac from micro-sd is not applied).
 
