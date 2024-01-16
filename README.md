@@ -1,10 +1,25 @@
 # opi5_chg_mac
+
+### Note1:
+
+This scenario is only for NVME-SSD boot via spi-flash uboot-bootloader. Change_MAC does't work for microsd-boot.
+
+### Note2: 
+
+This manual is how to update spi-flash uboot-bootloader. You can do backup copy of your spi-flash bootloader.
+
+    $ mkdir ~/my-backup
+    $ sudo dd if=/dev/mtdblock0 of=~/my-backup/original.spi
+
+## Mini- Manual
+
 Change Mac-address for classic Orange Pi 5 (Boot from nvme-ssd only. Change mac from micro-sd is not applied).
 
     cd ~
     git clone https://github.com/metamot/opi5_chg_mac
     cd ~/opi5_chg_mac/
     make
+
 
 To see mac from file:
     
