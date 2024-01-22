@@ -1,4 +1,4 @@
-# opi5_chg_mac
+# How to change MAC-address for classic Orange Pi 5 (not for 5+) with spi-uboot using nvme-2242-boot
 
 ### Note1:
 
@@ -6,7 +6,7 @@ This scenario is only for NVME-SSD boot via spi-flash uboot-bootloader. Change_M
 
 ### Note2: 
 
-This manual is how to update spi-flash uboot-bootloader. You can do backup copy of your spi-flash bootloader (16MB).
+This manual is how to update spi-flash uboot. You can do backup copy of your spi-flash bootloader (16MB).
 
     $ mkdir ~/my-backup
     $ sudo dd if=/dev/mtdblock0 of=~/my-backup/original.spi
