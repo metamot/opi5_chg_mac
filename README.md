@@ -1,4 +1,4 @@
-# How to change MAC-address for classic Orange Pi 5 (not for 5+) with spi-uboot using nvme-2242-boot
+# How to change MAC-address for classic Orange Pi 5 (not for 5+) with spi-uboot using nvme-ssd-boot
 
 ### Note1:
 
